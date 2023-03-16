@@ -22,7 +22,7 @@ cardBody.classList.add('card-body');
 cardBody.id="posi2"
 const flag = document.createElement('img');
       flag.classList.add('card-img-top');
-      flag.src = "https://flagcdn.com/bo.svg ";
+      flag.src =  data[50].flags[0];
       cardBody.appendChild(flag);
       const capital = document.createElement('p');
       capital.classList.add('card-text');
@@ -76,7 +76,7 @@ cardBody1.classList.add('card-body');
 const flag1 = document.createElement('img');
       flag1.classList.add('card-img-top');
  
-      flag1.src = "https://flagcdn.com/nr.svg ";
+      flag1.src = data[24].flags[1];
       cardBody1.appendChild(flag1);
       cardBody1.id="posi3"
       const capital1 = document.createElement('p');
@@ -129,7 +129,7 @@ cardBody2.classList.add('card-body');
 const flag2 = document.createElement('img');
       flag2.classList.add('card-img-top');
 
-      flag2.src = "  https://flagcdn.com/ao.svg";
+      flag2.src = data[4].flags[0];
       cardBody2.appendChild(flag2);
       cardBody2.id="posi7"
       const capital2 = document.createElement('p');
@@ -181,7 +181,7 @@ cardBody3.classList.add('card-body');
 const flag3 = document.createElement('img');
       flag3.classList.add('card-img-top');
 
-      flag3.src = " https://flagcdn.com/fk.svg ";
+      flag3.src = data[187].flags[0];
       cardBody3.appendChild(flag3);
       cardBody3.id="posi10"
       const capital3 = document.createElement('p');
@@ -234,7 +234,7 @@ cardBody4.classList.add('card-body');
 const flag4 = document.createElement('img');
       flag4.classList.add('card-img-top');
 
-      flag4.src = " https://flagcdn.com/nc.svg";
+      flag4.src = data[65].flags[0];
       cardBody4.appendChild(flag4);
       cardBody4.id="posi12"
       const capital4 = document.createElement('p');
@@ -287,7 +287,7 @@ cardBody5.classList.add('card-body');
 const flag5 = document.createElement('img');
       flag5.classList.add('card-img-top');
 
-      flag5.src = "https://flagcdn.com/cm.svg";
+      flag5.src = data[87].flags[0];
       cardBody5.appendChild(flag5);
        cardBody5.id="posi13"
       const capital5 = document.createElement('p');
